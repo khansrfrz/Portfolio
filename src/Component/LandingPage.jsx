@@ -12,17 +12,20 @@ const LandingPage = () => {
             <span className="ml-2 text-xl font-bold">SARFARAZ KHAN</span>
           </div>
           <nav>
-           <Link to="/home" className="text-gray-700 hover:text-blue-500">Home</Link>
-           <Link to="/about" className="text-gray-700 hover:text-blue-500">About</Link>
-           <Link to="/services" className="text-gray-700 hover:text-blue-500">Services</Link>
-           <Link to="/Pricing" className="text-gray-700 hover:text-blue-500">Pricing</Link>
-           <Link to="/Contact" className="text-gray-700 hover:text-blue-500">Contact</Link>
-           <Link to="/pages" className="text-gray-700 hover:text-blue-500">Pages</Link>
-          </nav>
+            <div className="flex space-x-4">
+            <Link to="/home" className="text-gray-700 hover:text-blue-500 font-bold ">Home</Link>
+           <Link to="/about" className="text-gray-700 hover:text-blue-500 font-bold">About</Link>
+           <Link to="/services" className="text-gray-700 hover:text-blue-500 font-bold">Services</Link>
+           <Link to="/Pricing" className="text-gray-700 hover:text-blue-500 font-bold">Pricing</Link>
+           <Link to="/Contact" className="text-gray-700 hover:text-blue-500 font-bold">Contact</Link>
+           <Link to="/pages" className="text-gray-700 hover:text-blue-500 font-bold">Pages</Link>
+            </div>
+           </nav>
         </div>
       </header>
     </div>
   );
 };
+          
 
 export default LandingPage;
